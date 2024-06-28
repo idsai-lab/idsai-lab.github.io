@@ -5,6 +5,9 @@ on:
       - main
 permissions:
   contents: write
+  pages: write
+  id-token: write  # Ensure this permission is included
+
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }}
