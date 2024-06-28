@@ -1,7 +1,7 @@
-baseURL: https://hbs-skeleton.netlify.app/
-title: Hugo Bootstrap Skeleton
+baseURL: https://idsai-lab.github.io/
+title: IDSAI Lab
 theme: github.com/razonyang/hugo-theme-bootstrap
-copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
+copyright: 'Copyright © 2023-{year} IDSAI Lab, Phenikaa University. All Rights Reserved.'
 defaultContentLanguage: en
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true

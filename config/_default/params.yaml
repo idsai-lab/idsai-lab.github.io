@@ -5,15 +5,15 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: Interdisciplinary Data Science and Artificial Intelligence Laboratory, Phenikaa University
+keywords: Lab, Researcher, Team, Paper
 # images:
 #   - site-feature-image.jpg
 
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
-# logo: images/logo.png # Logo image. Default to images/logo.webp.
+logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
 brand: HBS
 
@@ -87,15 +87,15 @@ viewer: true # Image Viewer
 
 sidebar:
   # fixed: true
-  # archives: true # Enable archives widget
-  # taxonomiesToggle: false # Disable taxonomy toggle
-  # categories: true # Enable categories widget
-  # tags: true # Enable tags widget
+  archives: true # Enable archives widget
+  taxonomiesToggle: false # Disable taxonomy toggle
+  categories: true # Enable categories widget
+  tags: true # Enable tags widget
   # series: true # Enable series widget
   # authors: true # Enable authors widget
-  # postsToggle: false # Disable posts toggle
+  postsToggle: false # Disable posts toggle
   # featuredPosts: true # Enable featured posts widget
-  # recentPosts: true # Enable featured posts widget
+  recentPosts: true # Enable featured posts widget
   # collapsed: true # Collapse sidebar widgets by default on small screens.
 
 codeBlock:
@@ -256,9 +256,9 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: idsai-lab
+    patreon: idsai-lab
+    paypal: idsai-lab
 
 #docs:
   # nav:
