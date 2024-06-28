@@ -1,0 +1,55 @@
+- name: Pham Tien Lam, Ph.D
+  image: /images/people/02-anhlam.png
+  website: https://cs.phenikaa-uni.edu.vn/vi/post/gioi-thieu/ts-pham-tien-lam
+  email: lam.phamtien@phenikaa-uni.edu.vn
+  job: Researcher, Lab's Leader
+  degree: Ph.D at JAIST, Japan
+  achievements:
+    - Master at HUST
+    - Ph.D at Paris 13
+    - Research Associate at NTU
+    - Google Scholar
+
+- name: Trinh Thanh, Ph.D
+  image: /images/people/01-anhthanh.png
+  website: https://cs.phenikaa-uni.edu.vn/vi/post/gioi-thieu/doi-ngu-giang-vien/ts-trinh-thanh
+  email: thanh.trinh@phenikaa-uni.edu.vn
+  job: Researcher, Lecturer
+  degree: Ph.D at Shenzhen University, China
+  achievements:
+    - Master at KMITL
+    - Ph.D at Kyoto University
+    - Postdoc at Kyoto University
+    - Google Scholar
+
+- name: Nguyen Van Duy, Ph.D
+  image: https://phenikaa-uni.edu.vn:3600/cs/vi/doi-ngu-can-bo-giang-vien/12.png
+  website: https://scholar.google.com.vn/citations?hl=en&user=lp8EiaMAAAAJ
+  email: duy.nguyenvan@phenikaa-uni.edu.vn
+  job: Researcher, Lecturer
+  degree: Ph.D at Grenoble Alps, France
+  achievements:
+    - B.E at HUST
+    - Ph.D at Queen’s Belfast University, UK
+    - Postdoc at University of Southampton, UK
+    - Google Scholar
+
+- name: Nguyen Van Thieu, M.Sc
+  image: https://phenikaa-uni.edu.vn:3600/cs/vi/doi-ngu-can-bo-giang-vien/thieunv.png
+  website: https://thieu1995.github.io/
+  email: thieu.nguyenvan@phenikaa-uni.edu.vn
+  job: Researcher, Lecturer
+  degree: M.Sc at HUST, Vietnam
+  achievements:
+    - B.E at HUST
+    - M.Sc at HUST
+
+- name: La Van Quan, M.Sc
+  image: /images/people/03-quan.png
+  website: https://scholar.google.com.vn/citations?hl=en&user=EOAnZCsAAAAJ
+  email: quan.lavan@phenikaa-uni.edu.vn
+  job: Researcher, Lecturer
+  degree: M.Sc at HUST, Vietnam
+  achievements:
+    - B.E at HUST
+    - M.Sc at HUST

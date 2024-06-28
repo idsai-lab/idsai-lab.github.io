@@ -1,0 +1,23 @@
+- name: Nguyen Van Quyen, M.Sc
+  image: /images/people/00-quyen.jpg
+  website: https://scholar.google.com/citations?user=fMG0GB4AAAAJ&hl=en
+  email: quyen.nguyenvan@phenikaa-uni.edu.vn
+  job: Researcher
+  degree: M.Sc at VNU, Vietnam
+  achievements:
+    - Master at HUST
+    - Ph.D at Paris 13
+    - Research Associate at NTU
+    - Google Scholar
+
+- name: Dang Van Bau, M.Sc
+  image: /images/people/04-bao.png
+  website: https://www.facebook.com/BauPi9299/
+  email: dangvanbau1999@gmail.com
+  job: Researcher
+  degree: M.Sc at Phenikaa University, Vietnam
+  achievements:
+    - Master at KMITL
+    - Ph.D at Kyoto University
+    - Postdoc at Kyoto University
+    - Google Scholar

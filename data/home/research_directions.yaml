@@ -1,0 +1,35 @@
+- title: Machine Learning
+  short_info: Information overloaded, dig for interesting patterns!
+  topics:
+    - Statistical inference
+    - Hierarchical learning
+    - Scalable clustering algorithms
+
+- title: Reinforcement Learning
+  short_info: No pain no gain, reinforce yourself but efficiently!
+  topics:
+      - Adaptive sampling algorithms
+      - Structured reinforcement learning
+      - Learning to optimize
+
+- title: Machine Learning with Social Computing
+  short_info: ML is everywhere in our society, make it safe and fair!
+  topics:
+      - Crowdsourcing system
+      - Distributed and Federated Learning with Privacy
+      - Social impact of ML
+
+- title: Graph-Structured Deep Learning
+  short_info: Realize the underlying structure of data!
+  topics:
+      - Improving graph neural networks
+      - Drug discovery
+      - Graph generative models
+
+- title: Large-scale Machine Learning
+  short_info: Find the optima efficiently and robustly!
+  topics:
+      - Stochastic and distributed optimization methods
+      - Science of deep learning
+      - Scalable optimization methods
+

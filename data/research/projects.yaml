@@ -1,0 +1,32 @@
+- name: Deep Learning for Vietnamese Handwritten
+  members: Pham Tien Lam, Nguyen Van Quyen, Dang Van Bau, Ha Duc Hai
+  funder: Phenikaa University, Vietnam
+  link:
+  finished: false
+  title: Deep Learning for Vietnamese Handwritten
+  description: Building an OCR machine learning model to help recognize Vietnamese handwriting on images
+
+- name: Applications of AI in Smart Cities
+  members: Luong Van Thien, Mai Cong Trang, Pham Tien Lam
+  funder: Vingroup Innovation Foundation, VINIF (2019-2022)
+  link:
+  finished: true
+  title: Applications of AI in Smart Cities
+  description: We study AI-inspired solutions for intelligent transportation systems, which cover vehicle detection, smart traffic light, smart parking, and incident detection.
+
+- name: Phenikaa Jupyter Hub Project
+  members: Mai Xuan Trang, Pham Tien Lam
+  funder: Vingroup Innovation Foundation, VINIF (2019-2022)
+  link:
+  finished: false
+  title: Phenikaa Jupyter Hub Project
+  description: This JupyterHub, at first, aims at providing an environment for teaching AI, Data Science courses at Phenikaa CS. This system enables lecturers to create and manage courses using Jupyter Notebook, also students can use this JupyterHub for practicing and doing assignments.
+
+- name: Application of AI in Medical Imaging
+  members: Pham Tien Lam, Mai Xuan Trang
+  funder: Phenikaa University, Vietnam
+  link:
+  finished: true
+  title: Application of AI in Medical Imaging
+  description: We research and develop advanced computer vision techniques using deep learning for medical image diagnosis.
+

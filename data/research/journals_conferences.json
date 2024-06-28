@@ -1,0 +1,93 @@
+[
+  {
+    "year": 2022,
+    "data": [
+      {
+        "id": 6,
+        "title": "Hybridization of Galactic Swarm and Evolution Whale Optimization for Global Search Problem",
+        "magazine_type": "journal",
+        "ranking": "Q1",
+        "impact_factor": 4.640,
+        "cite_score": 4.96,
+        "url_doi": "https://doi.org/10.1109/ACCESS.2020.2988717",
+        "url_code": "https://github.com/trung02012017/GSO_implementation",
+        "url_pdf": "https://ieeexplore.ieee.org/iel7/6287639/8948470/09072130.pdf",
+        "chicago_start": "Nguyen, Binh Minh, Trung Tran, Thieu Nguyen, and Giang Nguyen",
+        "chicago_end": "IEEE Access 8 (2020): 74991-75010."
+      },
+      {
+        "id": 5,
+        "title": "EO-CNN: an enhanced CNN model trained by equilibrium optimization for traffic transportation prediction",
+        "magazine_type": "conference",
+        "ranking": "B",
+        "url_doi": "https://doi.org/10.1016/j.procs.2020.09.075",
+        "url_code": "https://github.com/chasebk/EO_CNN",
+        "url_pdf": "https://www.sciencedirect.com/science/article/pii/S1877050920319724/pdf?md5=8d1fb2a32b266fc654a5fe1fd478efc7&pid=1-s2.0-S1877050920319724-main.pdf",
+        "chicago_start": "Nguyen, Thieu, Giang Nguyen, and Binh Minh Nguyen",
+        "chicago_end": "Procedia Computer Science 176 (2020): 800-809."
+      }]
+  },
+  {
+    "year": 2021,
+    "data": [
+      {
+        "id": 12,
+        "title": "A comprehensive comparison of recent developed meta-heuristic algorithms for streamflow time series forecasting problem",
+        "magazine_type": "journal",
+        "ranking": "Q1",
+        "impact_factor": 6.725,
+        "cite_score": 11.2,
+        "url_doi": "https://doi.org/10.1016/j.asoc.2021.107282",
+        "url_pdf": "https://www.sciencedirect.com/science/article/abs/pii/S1568494621002052",
+        "url_code": "https://github.com/aiir-team/physics_MLP_monthly_streamflow",
+        "chicago_start": "Ahmed, Ali Najah, To Van Lam, Nguyen Duy Hung, Nguyen Van Thieu, Ozgur Kisi, and Ahmed El-Shafie.",
+        "chicago_end": "Applied Soft Computing. 2021 Jul 1;105:107282."
+      },
+      {
+        "id": 11,
+        "title": "MPoC-A Metaheuristic Proof of Criteria Consensus Protocol for Blockchain Network",
+        "magazine_type": "conference",
+        "ranking": "A",
+        "url_doi": "https://doi.org/10.1109/ICBC51069.2021.9461113",
+        "url_code": "https://gitlab.com/thangbk2209/consensus_simulation",
+        "url_pdf": "https://ieeexplore.ieee.org/document/9461113",
+        "chicago_start": "Nguyen, Binh Minh, Thang Nguyen, Thieu Nguyen, and Ba-Lam Do.",
+        "chicago_end": "In 2021 IEEE International Conference on Blockchain and Cryptocurrency (ICBC), pp. 1-8. IEEE, 2021."
+      },
+      {
+        "id": 10,
+        "title": "Predicting roof displacement of roadways in underground coal mines using adaptive neuro-fuzzy inference system optimized by various physics-based optimization algorithms",
+        "magazine_type": "journal",
+        "ranking": "Q1",
+        "impact_factor": 4.338,
+        "cite_score": 6.8,
+        "url_doi": "https://doi.org/10.1016/j.jrmge.2021.07.005",
+        "url_code": "https://github.com/pafolife/MHA_ANFIS_roadway",
+        "url_pdf": "https://www.sciencedirect.com/science/article/pii/S1674775521001141",
+        "chicago_start": "Xie, Chengyu, Hoang Nguyen, Xuan-Nam Bui, Van-Thieu Nguyen, and Jian Zhou",
+        "chicago_end": "Journal of Rock Mechanics and Geotechnical Engineering 13, no. 6 (2021): 1452-1465."
+      },
+      {
+        "id": 9,
+        "title": "Multi-objective Sparrow Search Optimization for Task Scheduling in Fog-Cloud-Blockchain Systems",
+        "magazine_type": "conference",
+        "ranking": "A",
+        "url_doi": "https://doi.org/10.1109/SCC53864.2021.00065",
+        "url_code": "https://github.com/thieu1995/IFCB",
+        "url_pdf": "https://ieeexplore.ieee.org/abstract/document/9592438",
+        "chicago_start": "Nguyen, Thieu, Thang Nguyen, Quoc-Hien Vu, Thi Thanh Binh Huynh, and Binh Minh Nguyen",
+        "chicago_end": "In 2021 IEEE International Conference on Services Computing (SCC), pp. 450-455. IEEE, 2021."
+      },
+      {
+        "id": 8,
+        "title": "LogDTL: Network Log Template Generation with Deep Transfer Learning",
+        "magazine_type": "conference",
+        "ranking": "B",
+        "url_doi": "https://ieeexplore.ieee.org/document/9464068",
+        "url_code": "https://github.com/fukuda-lab/LogDTL",
+        "url_pdf": "https://sat.hongo.wide.ad.jp/papers/thieu_annet2021.pdf",
+        "chicago_start": "Nguyen, Thieu, Satoru Kobayashi, and Kensuke Fukuda.",
+        "chicago_end": "In 2021 IFIP/IEEE International Symposium on Integrated Network Management (IM), pp. 848-853. IEEE, 2021."
+      }]
+  }
+]

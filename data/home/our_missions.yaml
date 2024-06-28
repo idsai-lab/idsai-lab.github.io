@@ -1,0 +1,14 @@
+- paragraph: The Data Science Laboratory conducts research in machine learning, artificial
+    intelligence, and its applications to large scale data domains in science and industry. This includes
+    the development of deep generative models, methods for approximate inference, probabilistic programming,
+    Bayesian deep learning, causal inference, reinforcement learning, graph neural networks, and geometric
+    deep learning.
+
+- paragraph: The main focus of our research is Automated Machine Learning (AutoML), which includes efficient
+    hyperparameter optimization, neural architecture search, learning to learn, and meta-learning.
+
+- paragraph: We also apply AutoML to improve practical deep learning for several applications of high societal importance.
+
+- paragraph: While we discuss AutoML in detail on our project webpage AutoML, on this university website we provide
+    information about our publications, teaching, projects, and how to get in touch to start working with
+    us.
