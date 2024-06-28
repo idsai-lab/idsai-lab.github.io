@@ -1,0 +1,24 @@
+
+<div id="page_talks">
+    <div class="pb-5 mb-5">
+        {{range $index, $item := .Site.Data.research.talks}}
+            {{if $item.link_talk }}
+                <p class="fw-bold">
+                    <a href="{{$item.link_talk}}" target="_blank">{{add $index 1}}. {{$item.title}}</a>
+                </p>
+            {{else}}
+                <p class="fw-bold">{{add $index 1}}. {{$item.title}}</p>
+            {{end}}
+            <ul>
+                {{ if $item.link_event }}
+                    <li>
+                        <a href="{{$item.link_event}}" target="_blank">{{$item.address}}</a>
+                    </li>
+                {{else}}
+                    <li>{{$item.address}}</li>
+                {{end}}
+                <li>{{$item.date}}</li>
+            </ul>
+        {{ end }}
+    </div>
+</div>

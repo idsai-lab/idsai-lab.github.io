@@ -1,0 +1,8 @@
+
+{{ define "content" }}
+{{- partial "carousel" . -}}
+<div class="{{ if default true .Params.sidebar }}col-lg-8{{ else }}col-lg-12{{ end }}">
+    {{ partial "custom_home" . }}
+</div>
+{{- partial "sidebar" . -}}
+{{ end }}

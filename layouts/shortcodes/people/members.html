@@ -1,0 +1,74 @@
+<style>
+    .card-custom:hover {
+        box-shadow: 5px 6px 6px 2px #e9ecef;
+        transform: scale(1.02);
+    }
+    .card-custom {
+        max-width: 220px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .person_job, .person_email, .person_key_degree, .person_key_name {
+        margin-bottom: 0;
+    }
+    .person_field {
+        margin-bottom: 2px;
+    }
+</style>
+
+<div id="page_members">
+    <div id="page_key_members" class="pb-5 mb-5">
+        <h1 class="text-center">Key Members</h1>
+        <div class="row mt-5 justify-content-center">
+            {{ range .Site.Data.people.key_members }}
+            <div class="card card-custom mx-3 mb-4">
+                <a href="{{.website}}" target="_blank">
+                    <img class="card-img-top" src="{{.image}}" alt="Card image">
+                </a>
+                <div class="card-body card_people_content text-center">
+                    <p class="person_key_name fw-bold">{{.name}}</p>
+                    <p class="card-text person_key_job">{{.job}}</p>
+                    <p class="card-text person_key_degree">{{.degree}}</p>
+                    <p class="person_email fst-italic">{{.email}}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <div id="page_research_assistants" class="pb-5 mb-5">
+        <h1 class="text-center">Research Assistants</h1>
+        <div class="row mt-5 justify-content-center">
+            {{ range .Site.Data.people.research_assistants }}
+            <div class="card card-custom mx-3 mb-4">
+                <a href="{{.website}}" target="_blank">
+                    <img class="card-img-top" src="{{.image}}" alt="Card image">
+                </a>
+                <div class="card-body card_people_content text-center">
+                    <p class="person_name fw-bold">{{.name}}</p>
+                    <p class="card-text person_job">{{.degree}}</p>
+                    <p class="person_email fst-italic">{{.email}}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <div id="page_students">
+        <h1 class="text-center">Students</h1>
+        <div class="row mt-5 justify-content-center">
+            {{ range .Site.Data.people.students }}
+            <div class="card card-custom mx-3 mb-4">
+                <a href="{{.website}}" target="_blank">
+                    <img class="card-img-top" src="{{.image}}" alt="Card image">
+                </a>
+                <div class="card-body card_people_content text-center">
+                    <p class="person_name fw-bold">{{.name}}</p>
+                    <p class="person_field">{{.field}}</p>
+                    <p class="person_university">{{.university}}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+
+{{- if not .IsHome }}
+{{- partial "breadcrumb" . }}
+{{- partial "sections" . }}
+{{- end }}
+
+<div id="custom_home" class="mt-3">
+
+    <h3 class="text-center">Welcome to the Data Science Lab at Phenikaa University!</h3>
+    <article class="card component px-4 pt-4">
+        <div class="row">
+            <ul class="px-4">
+                {{ range .Site.Data.home.our_missions }}
+                <li class="mb-3">{{.paragraph}}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </article>
+
+
+    <h3 class="mt-5"># Recent News</h3>
+    <article class="card component p-3">
+        <div class="row">
+            <div class="news_wrapper col-sm-12">
+                <ul>
+                    {{ range .Site.Data.home.recent_news }}
+                    <li class="mb-3">{{.name}}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </article>
+
+
+    <h3 class="mt-5"># Research</h3>
+    <article class="card component">
+        <div class="row">
+            {{ range .Site.Data.home.research_directions }}
+            <div class="research research-1 col-sm-12 col-md-6">
+                <div class="research-title">
+                    <h4>{{.title}}<br/>
+                        <small>{{.short_info}}</small></h4>
+                </div>
+                <div class="research-content">
+                    {{ range .topics }}
+                    - {{.}}<br/>
+                    {{end}}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </article>
+
+
+</div>

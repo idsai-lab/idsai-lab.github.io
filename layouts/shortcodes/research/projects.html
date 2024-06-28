@@ -1,0 +1,40 @@
+
+<div id="page_projects">
+
+    <h3 class="text-center">On Going Projects</h3>
+
+    <div class="pb-5 mb-5">
+        {{ $.Scratch.Set "counter1" 0 }}
+        {{range $index, $item := .Site.Data.research.projects}}
+            {{ if eq false $item.finished }}
+                {{ $.Scratch.Set "counter1" (add ($.Scratch.Get "counter1") 1) }}
+                <h4>{{$.Scratch.Get "counter1"}}. {{$item.name}}</h4>
+                <ul>
+                    <li>Members: {{$item.members}}</li>
+                    <li>Funder: {{$item.funder}}</li>
+                    <li>Project title: {{$item.title}}</li>
+                    <li>Description: {{$item.description}}</li>
+                </ul>
+            {{ end }}
+        {{ end }}
+    </div>
+
+    <h3 class="text-center">PastProjects</h3>
+
+    <div class="pb-5 mb-5">
+        {{ $.Scratch.Set "counter2" 0 }}
+        {{range $index, $item := .Site.Data.research.projects}}
+            {{ if eq true $item.finished }}
+                {{ $.Scratch.Set "counter2" (add ($.Scratch.Get "counter2") 1) }}
+                <h4>{{$.Scratch.Get "counter2"}}. {{$item.name}}</h4>
+                <ul>
+                    <li>Members: {{$item.members}}</li>
+                    <li>Funder: {{$item.funder}}</li>
+                    <li>Project title: {{$item.title}}</li>
+                    <li>Description: {{$item.description}}</li>
+                </ul>
+            {{ end }}
+        {{ end }}
+    </div>
+
+</div>

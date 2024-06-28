@@ -1,0 +1,101 @@
+
+<div id="page_publications">
+
+    <h3 class="text-center">Journals, Conferences and Workshops</h3>
+
+    <div class="pb-5 mb-5">
+        {{ range .Site.Data.research.journals_conferences }}
+        <div class="year_wrapper">
+            <h3>Year: {{.year}}</h3>
+            <div class="paper_list_wrapper">
+                {{ range $index, $paper := .data }}
+                <div class="paper_wrapper mb-3">
+                    <div class="paper_content">
+                        {{ add $index 1}}.
+                        {{$paper.chicago_start}}.
+                        <a href="{{$paper.url_doi}}" target="_blank" class="fst-italic">{{$paper.title}}.</a>
+                        {{$paper.chicago_end}}
+                    </div>
+                    <div class="paper_additional">
+                        [
+                        {{ if eq $paper.magazine_type "journal" }}
+                            {{title $paper.magazine_type}} ranked {{$paper.ranking}},
+                            IF: {{$paper.impact_factor}}, Cite Score: {{$paper.cite_score}}
+                        {{ else if eq $paper.magazine_type "conference" }}
+                            {{title $paper.magazine_type}} ranked {{$paper.ranking}}
+                        {{ end }}, Get
+                        <a href="{{$paper.url_code}}" target="_blank">Code</a>
+                        <span>--</span>
+                        <a href="{{$paper.url_pdf}}" target="_blank">PDF</a>
+                        ]
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <h3 class="text-center">Book chapters</h3>
+
+    <div class="pb-5 mb-5">
+        {{range $index, $item := .Site.Data.research.book_chapters}}
+        {{if $item.link }}
+        <p>
+            <a href="{{$item.link}}" target="_blank">{{add $index 1}}. {{$item.book_title}}</a>
+        </p>
+        {{else}}
+            <p>{{add $index 1}}. {{$item.book_title}}</p>
+        {{end}}
+        <ul>
+            <li>{{$item.authors}}</li>
+            <li>Chapter's name: {{$item.chapter_title}}</li>
+            <li>{{$item.publisher}}. {{$item.reference}}</li>
+        </ul>
+        {{ end }}
+    </div>
+
+
+    <h3 class="text-center">Reports</h3>
+
+    <ul>
+        {{range $index, $item := .Site.Data.research.reports}}
+        <li>
+            {{if $item.link }}
+            <span>
+                <a href="{{$item.link}}" target="_blank"> {{$item.title}}</a>
+            </span>
+            {{else}}
+            <span>{{$item.title}}</span>
+            {{end}}
+            <br/>
+            <span>{{$item.authors}}</span>
+            <br/>
+            <span>{{$item.reference}}</span>
+        </li>
+        {{ end }}
+    </ul>
+
+
+
+    <h3 class="text-center">Theses</h3>
+
+    <ul>
+        {{range $index, $item := .Site.Data.research.theses}}
+        <li>
+            {{if $item.link }}
+            <span>
+                <a href="{{$item.link}}" target="_blank"> {{$item.title}}</a>
+            </span>
+            {{else}}
+            <span>{{$item.title}}</span>
+            {{end}}
+            <br/>
+            <span>{{$item.authors}}</span>
+            <br/>
+            <span>{{$item.reference}}</span>
+        </li>
+        {{ end }}
+    </ul>
+
+</div>
