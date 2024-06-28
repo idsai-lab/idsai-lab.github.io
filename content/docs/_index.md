@@ -1,8 +1,8 @@
 ---
-title: Docs Sample
+title: Notes
 menu:
   main:
-    weight: 1
+    weight: 7
     params:
       icon: '<i class="fas fa-fw fa-file"></i>'
 ---

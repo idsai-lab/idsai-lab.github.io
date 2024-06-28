@@ -12,11 +12,11 @@ showRelatedPost: false
 postDate: false
 readingTime: false
 nav: false
-breadcrumb: false
+breadcrumb: true
 toc: false
 menu:
   main:
-    weight: 7
+    weight: 5
 ---
 
 

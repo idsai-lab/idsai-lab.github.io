@@ -1,5 +1,5 @@
 ---
-isPage: true
+isPage: false
 title: Members
 date: 17-Sep-22
 featured: false
@@ -7,14 +7,18 @@ draft: false
 comment: false
 reward: false
 copyright: false
-readMoreFromContent: false
-showRelatedPost: false
+readingTime: false
+postDate: false
+nav: false
+sidebar: false
+recentPostCount: false
+featuredPostCount: false
+relatedPostCount: false
 postDate: false
 readingTime: false
-nav: false
 menu:
   main:
-    weight: 2
+    weight: 1
 ---
 
 

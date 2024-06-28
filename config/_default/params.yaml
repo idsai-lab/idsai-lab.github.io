@@ -5,7 +5,7 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: Interdisciplinary Data Science and Artificial Intelligence Laboratory, Phenikaa University
+description: #Interdisciplinary Data Science and Artificial Intelligence Laboratory, Phenikaa University
 keywords: Lab, Researcher, Team, Paper
 # images:
 #   - site-feature-image.jpg
@@ -257,8 +257,8 @@ topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     github: idsai-lab
-    patreon: idsai-lab
-    paypal: idsai-lab
+#    patreon: idsai-lab
+#    paypal: idsai-lab
 
 #docs:
   # nav:

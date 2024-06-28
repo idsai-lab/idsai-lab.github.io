@@ -1,6 +1,6 @@
 ---
 isPage: false
-title: Talks
+title: Presentation
 date: 17-Sep-22
 featured: false
 draft: false
@@ -12,11 +12,12 @@ showRelatedPost: false
 postDate: false
 readingTime: false
 nav: false
-breadcrumb: false
+breadcrumb: true
 toc: false
+relatedPostCount: false
 menu:
   main:
-    weight: 6
+    weight: 4
 ---
 
 {{< research/talks >}}
