@@ -1,38 +1,50 @@
-- name: Pham Tien Lam, Ph.D
-  image: /images/people/02-anhlam.png
+- name: Nguyen Thi Hanh, Ph.D
+  image: /images/people/01-nguyenthihanh.png
   website: https://cs.phenikaa-uni.edu.vn/vi/post/gioi-thieu/ts-pham-tien-lam
-  email: lam.phamtien@phenikaa-uni.edu.vn
-  job: Researcher, Lab's Leader
-  degree: Ph.D at JAIST, Japan
+  email: hanh.nguyenthi@phenikaa-uni.edu.vn
+  job: Researcher, Lab's Head
+  degree: Ph.D at HUST, Vietnam
   achievements:
-    - Master at HUST
-    - Ph.D at Paris 13
-    - Research Associate at NTU
-    - Google Scholar
+    - Master: Học viện Kỹ thuật Quân sự, Vietnam (2008-2010)
+    - Ph.D: HUST, Vietnam (2016-2020)
+    - Postdoc: NTU
+    - Google Scholar: https://scholar.google.com/citations?user=MyZFHpQAAAAJ&hl=en
 
-- name: Trinh Thanh, Ph.D
-  image: /images/people/01-anhthanh.png
-  website: https://cs.phenikaa-uni.edu.vn/vi/post/gioi-thieu/doi-ngu-giang-vien/ts-trinh-thanh
-  email: thanh.trinh@phenikaa-uni.edu.vn
+- name: Mai Xuan Trang, Ph.D
+  image: /images/people/02-maixuantrang.png
+  website: https://www.researchgate.net/profile/Mai-Trang
+  email: trang.maixuan@phenikaa-uni.edu.vn
   job: Researcher, Lecturer
   degree: Ph.D at Shenzhen University, China
   achievements:
-    - Master at KMITL
-    - Ph.D at Kyoto University
-    - Postdoc at Kyoto University
-    - Google Scholar
+    - Master: Viện công nghệ vua Mongkut Latkrabang (KMITL), Thái Lan (2009-2011)
+    - Ph.D: Kyoto University, Japan (2012-2016)
+    - Postdoc: Kyoto University
+    - Google Scholar: https://scholar.google.com/citations?user=0phzmw8AAAAJ&hl=en
 
-- name: Nguyen Van Duy, Ph.D
-  image: https://phenikaa-uni.edu.vn:3600/cs/vi/doi-ngu-can-bo-giang-vien/12.png
+- name: Dang Thi Thuy An, Ph.D
+  image: /images/people/03-dangthithuyan.png
+  website: https://cs.phenikaa-uni.edu.vn/vi/post/gioi-thieu/doi-ngu-can-bo-giang-vien
+  email: an.dangthithuy@phenikaa-uni.edu.vn
+  job: Researcher, Lecturer
+  degree: Ph.D at NCU, Taiwan
+  achievements:
+    - Master: National Central University, Taiwan (2015-2017)
+    - Ph.D: National Central University, Taiwan (2018-2022)
+    - Postdoc: NCU, Taiwan
+    - Google Scholar: https://scholar.google.com/citations?user=y38wrS4AAAAJ&hl=en
+
+- name: Nguyen Van Son, M.Sc
+  image: /images/people/04-nguyenvanson.png
   website: https://scholar.google.com.vn/citations?hl=en&user=lp8EiaMAAAAJ
-  email: duy.nguyenvan@phenikaa-uni.edu.vn
+  email: son.nguyenvan@phenikaa-uni.edu.vn
   job: Researcher, Lecturer
   degree: Ph.D at Grenoble Alps, France
   achievements:
-    - B.E at HUST
-    - Ph.D at Queen’s Belfast University, UK
-    - Postdoc at University of Southampton, UK
-    - Google Scholar
+    - Master: HUST, Vietnam (2019-2021)
+    - Ph.D: None
+    - Postdoc: None
+    - Google Scholar: https://scholar.google.com/citations?user=XYGD5BEAAAAJ
 
 - name: Nguyen Van Thieu, M.Sc
   image: https://phenikaa-uni.edu.vn:3600/cs/vi/doi-ngu-can-bo-giang-vien/thieunv.png
@@ -41,15 +53,31 @@
   job: Researcher, Lecturer
   degree: M.Sc at HUST, Vietnam
   achievements:
-    - B.E at HUST
-    - M.Sc at HUST
+    - Master: HUST, Vietnam (2019-2021)
+    - Ph.D: None
+    - Postdoc: None
+    - Google Scholar: https://scholar.google.com/citations?user=nsTbdhgAAAAJ&hl=en
 
-- name: La Van Quan, M.Sc
-  image: /images/people/03-quan.png
-  website: https://scholar.google.com.vn/citations?hl=en&user=EOAnZCsAAAAJ
+- name: La Van Quan, PhD Candidate
+  image: /images/people/06-lavanquan.png
+  website: https://lavanquan.github.io/
   email: quan.lavan@phenikaa-uni.edu.vn
   job: Researcher, Lecturer
   degree: M.Sc at HUST, Vietnam
   achievements:
-    - B.E at HUST
-    - M.Sc at HUST
+    - Master: HUST, Vietnam (2019-2021)
+    - Ph.D: University of Sydney (2024-2027)
+    - Postdoc: None
+    - Google Scholar: https://scholar.google.com/citations?user=nsTbdhgAAAAJ&hl=en
+
+- name: Do Manh Quang, Ms.C
+  image: https://apprecs.com/ios-meta/app-icons/256/376510438.jpg
+  website: https://www.netflix.com/fr/
+  email: quang.domanh@phenikaa-uni.edu.vn
+  job: Researcher, Lecturer
+  degree: M.Sc at HUST, Vietnam
+  achievements:
+    - Master:
+    - Ph.D:
+    - Postdoc: None
+    - Google Scholar:

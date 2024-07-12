@@ -13,9 +13,9 @@ keywords: Lab, Researcher, Team, Paper
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
-logo: images/logo.png # Logo image. Default to images/logo.webp.
+logo: images/idsai-lab-07.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: HBS
+brand: " "
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
